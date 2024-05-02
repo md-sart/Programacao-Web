@@ -1,31 +1,63 @@
 header {
-    border: 2px solid black;
+    border: 1px solid red;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-/* Estilo para o main */
+#ul1 {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.li1 {
+    display: inline;
+    margin-right: 10px; 
+}
+
+nav {
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 main {
-    border: 2px solid black;
+    display: flex;
+    border: 1px solid green;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-/* Estilo para o article */
 article {
-    border: 2px solid black;
+    display: flexbox;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 1%;
+    width: 75%;
+}
+
+section {
+    border: 1px solid orange;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-/* Estilo para o aside */
 aside {
-    border: 2px solid black;
+    display: flexbox;
+    border: 1px solid skyblue;
     padding: 10px;
+    margin-bottom: 20px;
+    width:20%;
 }
 
-/* Estilo para o footer */
+div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 20%;
+}
+
 footer {
-    border: 2px solid black;
+    border: 1px solid rebeccapurple;
     padding: 10px;
 }
