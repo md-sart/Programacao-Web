@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            }
+
+        form {
+            background-color: #fff;
+            width: 80%;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="submit"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            }
+
+    </style>
+</head>
+<body>
+
+<form action="https://www.w3schools.com/action_page.php">
+    Nome do filme: <input type="text" name="filme"><br>
+    Ano: <input type="number" id="ano" name="ano" placeholder="YYYY" required>
+     <input type="submit" value="Solicitar">
+    </form>
+
+</body>
+</html>

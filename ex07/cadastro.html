@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            }
+
+        form {
+            background-color: #fff;
+            width: 80%;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        input[type="submit"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php">
+        Nome: <input type="text" name="nome"><br>
+        E-mail: <input type="email" name="email"><br>
+        Senha: <input type="password" name="senha"><br>
+        Data de nascimento: <input type="date" name="nascimento"><br>
+        Sexo: <input type="text" name="sexo"><br>
+        Estado: <input type="text" name="estado"><br>
+
+
+        <input type="submit" value="Enviar">
+    </form>    
+</body>
+</html>
