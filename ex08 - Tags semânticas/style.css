@@ -1,0 +1,31 @@
+header {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o main */
+main {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o article */
+article {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o aside */
+aside {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* Estilo para o footer */
+footer {
+    border: 2px solid black;
+    padding: 10px;
+}
