@@ -10,6 +10,7 @@ header img {
 
 a {
     color: azure;
+    border: 1px solid black;
 }
 
 a:hover {
