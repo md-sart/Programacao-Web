@@ -1,3 +1,24 @@
 body {
-    background-image: url('img1.jpg');
+    background-image: url('img.jpg');
+    background-size: cover;
 }
+
+h1 {
+    border: 2px solid green;
+    background-color: red;
+   }
+
+.primeiradiv{
+    background-color: red;
+    width: 700px;
+    padding: 0%;
+    justify-content: center;
+}
+
+.segundadiv{
+    background-color: green;
+    width: 700px;
+    padding: 25%;
+    justify-content: center;
+}
+   
